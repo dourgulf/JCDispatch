@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "895BED2A1F1C660200E1DF74"
-               BuildableName = "jcdispatch"
-               BlueprintName = "jcdispatch"
-               ReferencedContainer = "container:jcdispatch.xcodeproj">
+               BlueprintIdentifier = "506735651787094200C8D189"
+               BuildableName = "ios.app"
+               BlueprintName = "ios"
+               ReferencedContainer = "container:ios.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "895BED2A1F1C660200E1DF74"
-            BuildableName = "jcdispatch"
-            BlueprintName = "jcdispatch"
-            ReferencedContainer = "container:jcdispatch.xcodeproj">
+            BlueprintIdentifier = "506735651787094200C8D189"
+            BuildableName = "ios.app"
+            BlueprintName = "ios"
+            ReferencedContainer = "container:ios.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "895BED2A1F1C660200E1DF74"
-            BuildableName = "jcdispatch"
-            BlueprintName = "jcdispatch"
-            ReferencedContainer = "container:jcdispatch.xcodeproj">
+            BlueprintIdentifier = "506735651787094200C8D189"
+            BuildableName = "ios.app"
+            BlueprintName = "ios"
+            ReferencedContainer = "container:ios.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "895BED2A1F1C660200E1DF74"
-            BuildableName = "jcdispatch"
-            BlueprintName = "jcdispatch"
-            ReferencedContainer = "container:jcdispatch.xcodeproj">
+            BlueprintIdentifier = "506735651787094200C8D189"
+            BuildableName = "ios.app"
+            BlueprintName = "ios"
+            ReferencedContainer = "container:ios.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

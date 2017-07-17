@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		895BED2F1F1C660200E1DF74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 895BED2E1F1C660200E1DF74 /* main.cpp */; };
+		895BED371F1C665C00E1DF74 /* JCDispatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 895BED351F1C665C00E1DF74 /* JCDispatch.cpp */; };
+		895BED391F1C671300E1DF74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 895BED381F1C671300E1DF74 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		895BED2B1F1C660200E1DF74 /* jcdispatch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = jcdispatch; sourceTree = BUILT_PRODUCTS_DIR; };
-		895BED2E1F1C660200E1DF74 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		895BED351F1C665C00E1DF74 /* JCDispatch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JCDispatch.cpp; sourceTree = "<group>"; };
+		895BED361F1C665C00E1DF74 /* JCDispatch.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = JCDispatch.hpp; sourceTree = "<group>"; };
+		895BED381F1C671300E1DF74 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		895BED2D1F1C660200E1DF74 /* jcdispatch */ = {
 			isa = PBXGroup;
 			children = (
-				895BED2E1F1C660200E1DF74 /* main.cpp */,
+				895BED351F1C665C00E1DF74 /* JCDispatch.cpp */,
+				895BED361F1C665C00E1DF74 /* JCDispatch.hpp */,
+				895BED381F1C671300E1DF74 /* main.cpp */,
 			);
 			path = jcdispatch;
 			sourceTree = "<group>";
@@ -119,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				895BED2F1F1C660200E1DF74 /* main.cpp in Sources */,
+				895BED371F1C665C00E1DF74 /* JCDispatch.cpp in Sources */,
+				895BED391F1C671300E1DF74 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
