@@ -2,7 +2,7 @@ C++ implementation like Apple's GCD API, inspire by [dispatch](https://github.co
 
 ## dispatch::globalQueue
 
-Just like GCD using queue with create with `dispatch_get_global_queue()`.
+Just like GCD using queue create with `dispatch_get_global_queue()`.
 
 ## dispatch::serailQueue
 
