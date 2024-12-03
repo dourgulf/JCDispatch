@@ -1,4 +1,4 @@
-﻿//
+//
 //  JCDispatch.cpp
 //  cppdispatch
 //
@@ -156,11 +156,11 @@ namespace dispatch {
     serailQueue::serailQueue() {
         std::shared_ptr<threadPool> tp = std::make_shared<threadPool>();
         tp->maxCocurrent = 1;
-        queueRunner = tp;
+        runner = tp;
     }
     
     void serailQueue::async(block_t task) {
-        queueRunner->addTaskWithPriority(task, 0);
+        runner->addTaskWithPriority(task, 0);
     }
     
     std::shared_ptr<threadPool> &threadPool::sharedPool() {

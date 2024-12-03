@@ -1,4 +1,4 @@
-﻿//
+//
 //  JCDispatch.hpp
 //  cppdispatch
 //
@@ -51,7 +51,7 @@ namespace dispatch
     
     struct serailQueue: public queue {
         virtual void async(block_t) override;
-        std::shared_ptr<queueRunner> queueRunner;
+        std::shared_ptr<queueRunner> runner;
         serailQueue();
     };
     
